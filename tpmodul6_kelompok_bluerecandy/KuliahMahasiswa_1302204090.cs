@@ -11,12 +11,15 @@ namespace tpmodul6_kelompok_bluerecandy
     internal class KuliahMahasiswa_1302204090
     {
 
+        // Mendapatkan path dari file json
         private string GetJsonPath => Path.GetFullPath(Directory.GetCurrentDirectory() + "/../../../tp6_2_1302204090.json");
 
         public void ReadJSON()
         {
+            // Membuka file json
             var jsonFile = File.OpenText(GetJsonPath);
 
+            // Deserialize json kedalam bentuk Dictionary
             var json = JsonSerializer.Deserialize<IEnumerable<Dictionary<string, dynamic>>>(jsonFile.ReadToEnd(), new JsonSerializerOptions()
             {
                 WriteIndented = true,
