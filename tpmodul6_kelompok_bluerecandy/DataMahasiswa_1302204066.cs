@@ -20,7 +20,7 @@ namespace tpmodul6_kelompok_bluerecandy
                 WriteIndented = true,
             });
 
-            Console.WriteLine("\n" + $"Nama {json["nama depan"]} {json["nama belakang"]} dengan nim {json["nim"]} dari fakultas {json["fakultas"]}");
+            Console.WriteLine($"Nama {json["nama depan"]} {json["nama belakang"]} dengan nim {json["nim"]} dari fakultas {json["fakultas"]}");
         }
     }
 }
