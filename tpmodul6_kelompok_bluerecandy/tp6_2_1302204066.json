@@ -1,0 +1,32 @@
+[
+
+  {
+    "kode_mk": "CII-2A3",
+    "nama_mk": "Computer Organization and Architecture"
+  },
+  {
+    "kode_mk": "CII-3D4",
+    "nama_mk": "Object Based Programming"
+  },
+  {
+    "kode_mk": "CRI-2E4",
+    "nama_mk": "Basis Data"
+  },
+  {
+    "kode_mk": "CRI-2D3",
+    "nama_mk": "Artificial intelligence"
+  },
+  {
+    "kode_mk": "CRI-2C4",
+    "nama_mk": "Software Construction"
+  },
+  {
+    "kode_mk": "CRI-2F2",
+    "nama_mk": "Level II Project"
+  },
+  {
+    "kode_mk": "CRI-2G1",
+    "nama_mk": "Software Technology For Society"
+  }
+
+]
